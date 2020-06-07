@@ -1,33 +1,28 @@
 
-
-a ship is a ship.
+a ship has a name from ship-names
 a ship has a origin from origin
 a ship has a location from location
-a ship is Cargo, Outpost, Personal, Military/War Ship or Living Community
+a ship is small, medium or large
+a ship is cargo, outpost, personal, diplomatic military, scavenger, jail or living community
 
 #a clue is a clue.
 
-a object is weapon, armor, bandage, drug or relic.
-a weapon object is Blaster, Tazer, Lazer Sword, Space-Gun, Mining Laser, Box Cutter or Needler.
-a drug object is Space LSD, Stale Heroin, strange green plant, soppy mushroom or empty syringe.
-#pls fill in here vvv
-#a armor object is ...
-#a bandage object is ...
-#a relic object is...
+a object is weapon, clothing, drug, relic or misc.
+a weapon object is blaster, tazer, laser sword, crow bar, mining laser, pneumatic gauntlet, bloody box cutter, red fire axe or Needler.
+a drug object is Space LSD, Stale Heroin, strange green plant, megaPCP, luminescent mushroom, modified inhaler or empty syringe.
+a clothing object is cracked unobtanium chest plate, scorched gas mask, yellow hazmat suit or moon boots
+a relic object is Head of the Beast, Hand of Meradon the Ruthless, or Shard of Orion
+a misc object is bloody bandages, malfunctioning transmitter, or torn photo of two people
 
-a entity is Dead, Comatose or Insane/Crazed.
+a entity is dead, comatose, unresponsive, insane or crazed.
 a entity is Invader, Scavenger, Alien, Ghost or Animal.
-a entity is Cognitively Advanced or Cognitively Primitive.
+a entity is advanced or primitive.
 a entity has origin from entity-origin
-Animal entity is Cognitively Primitive.
-
-
-#a Invader entity can be Dead, Comatose or Insane/Crazed.
-#a Scavenger entity can be Dead, Comatose or Insane/Crazed.
-#a Alien entity can be Dead, Comatose or Insane/Crazed.
+Animal entity is primitive.
 
 
 
 # buttons
 Pressing "ship" means "imagine 3 ship".
 Pressing "entities" means "imagine 5 entity".
+Pressing "object" means "imagine 5 object".
