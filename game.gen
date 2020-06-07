@@ -8,6 +8,26 @@ a ship is Cargo, Outpost, Personal, Military/War Ship or Living Community
 #a clue is a clue.
 
 a object is weapon, armor, bandage, drug or relic.
-a object is a clue.
+a weapon object is Blaster, Tazer, Lazer Sword, Space-Gun, Mining Laser, Box Cutter or Needler.
+a drug object is Space LSD, Stale Heroin, strange green plant, soppy mushroom or empty syringe.
+#pls fill in here vvv
+#a armor object is ...
+#a bandage object is ...
+#a relic object is...
+
+a entity is Dead, Comatose or Insane/Crazed.
+a entity is Invader, Scavenger, Alien, Ghost or Animal.
+a entity is Cognitively Advanced or Cognitively Primitive.
+a entity has origin from entity-origin
+Animal entity is Cognitively Primitive.
 
 
+#a Invader entity can be Dead, Comatose or Insane/Crazed.
+#a Scavenger entity can be Dead, Comatose or Insane/Crazed.
+#a Alien entity can be Dead, Comatose or Insane/Crazed.
+
+
+
+# buttons
+Pressing "ship" means "imagine 3 ship".
+Pressing "entities" means "imagine 5 entity".
