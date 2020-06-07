@@ -1,0 +1,13 @@
+
+
+a ship is a ship.
+a ship has a origin from origin
+a ship has a location from location
+a ship is Cargo, Outpost, Personal, Military/War Ship or Living Community
+
+#a clue is a clue.
+
+a object is weapon, armor, bandage, drug or relic.
+a object is a clue.
+
+
