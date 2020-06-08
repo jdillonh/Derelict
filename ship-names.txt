@@ -3,6 +3,7 @@ Jewel of Orion
 Noble Pursuit
 Mjolnir
 Heimdall
+Mimir
 Pale Horse
 Xerce's Fist
 Enforcer
@@ -12,9 +13,20 @@ Centurian Raven
 Squarepusher
 Aphex of Werevon
 USS Montario
-
+Jefferson Starship
+Cormand's Phalanx
+USS Tiptin
+Ventura's Resolve
+Hedra
+Bebop
+Discovery One
+Voyager Eight
+Hermes
 XA-789
 FC-822
 IO-639
 PY-711
 VB-434
+KS-566
+RR-010
+BT-904

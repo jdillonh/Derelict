@@ -1,10 +1,22 @@
 # - Ship -
 
 a ship has a name from ship-names
-a ship has a origin from origin
+a ship has a origin from ship-origin
 a ship has a location from location
 a ship is small, medium or large
-a ship is cargo, outpost, personal, diplomatic, military, scavenger, jail, pirate vessel or living community
+a ship is cargo, outpost, personal, diplomatic, military, scavenger, jail, pirate vessel, research, or living community
+
+
+# - Character -
+
+a character has a name from char-names
+a character has a origin from char-origin
+a character is male, female, genderfluid, or nonbinary
+a character is captain, security officer, janitor, navigator, guard, researcher, pilot, co-pilot, or mechanic
+a character is human crew member, android crew member, or alien crew member
+
+
+# - Clue -
 
 #a clue is a entity, object, or destruction
 
@@ -13,9 +25,9 @@ a ship is cargo, outpost, personal, diplomatic, military, scavenger, jail, pirat
 
 a object is weapon, clothing, drug, relic or misc.
 a weapon object is blaster, tazer, laser sword, crow bar, mining laser, pneumatic gauntlet, bloody box cutter, red fire axe, needlegun or mace-and-chain.
-a drug object is space LSD, expired heroin, strange green plant, megaPCP, luminescent mushroom, modified inhaler or empty syringe.
+a drug object is space LSD, expired heroin, strange green plant, megaPCP, luminescent mushroom, modified inhaler, stardust or empty syringe.
 a clothing object is cracked unobtanium chest plate, scorched gas mask, yellow hazmat suit or moon boots
-a relic object is Head of the Beast, Hand of Meradon the Ruthless, first American Flag on the Moon, Declaration of Independence of the Zardion System, or Shard of Orion
+a relic object is Head of the Beast, Hand of Meradon the Ruthless, first American Flag on the Moon, Declaration of Independence of the Zardonion System, or Shard of Orion
 a misc object is emergency beacon, bloody bandages, malfunctioning transmitter, interdimensional mirror, or torn photo of two people
 
 a relic object is rare # Doesn't have an effect?
@@ -40,22 +52,21 @@ a ghost is not dead
 a ghost is not comatose
 a ghost is rare
 
-a entity is crew member, space pirate, scavenger or unemployed
+a entity is crew member, space pirate, scavenger, mercenary or unemployed
 a primitive alien is unemployed
 a ghost is unemployed
 a animal is unemployed
 do not mention being unemployed
 
-monkey or parrot are kinds of animal
+monkey, squirrel, cat, corgi or parrot are kinds of animal
 a primitive alien is Yorban brain parasite, Vusidrag egg pod, rust bug, electrileech, jerrarat or Quijotic mimic
-
-a entity has origin from entity-origin
 
 
 # - Buttons -
 Pressing "ship" means "imagine 3 ship".
 Pressing "entities" means "imagine 5 entity".
 Pressing "object" means "imagine 5 object".
+Pressing "character" means "imagine 3 character".
 
 
 # - Tests -
