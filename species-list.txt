@@ -1,0 +1,10 @@
+human
+android, Omnic
+android, Replicant MK78
+android, Synth v7
+alien, Axtularian
+alien, Gardarian
+alien, Uderi
+alien, Astaronian
+alien, Lorite
+alien, Zuvam

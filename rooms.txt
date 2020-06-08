@@ -9,4 +9,5 @@ airlock
 bunks
 sick bay
 storage room
-radio room
+comm center
+gunner compartment

@@ -4,7 +4,7 @@ a ship has a name from ship-names
 a ship has a origin from ship-origin
 a ship has a location from location
 a ship is small, medium or large
-a ship is cargo, outpost, personal, diplomatic, military, scavenger, jail, pirate vessel, research, or living community
+a ship is cargo, outpost, personal, diplomatic, military, scavenger, jail, pirate vessel, research, or space colony
 # NEED BETTER ROOM STRUCTURE; HOW TO GENERATE DIFFERENT NUMBERS/TYPES BASED ON TYPE OF SHIP
 a ship has a room-1 from rooms
 a ship has a room-2 from rooms
@@ -16,26 +16,30 @@ a ship has a room-5 from rooms
 # - Character -
 
 a character has a name from char-names
+a character has a species from species-list
 a character has a origin from char-origin
 a character is male, female, genderfluid, or nonbinary
 a character is captain, security officer, janitor, navigator, guard, researcher, pilot, co-pilot, or mechanic
-a character is human crew member, android crew member, or alien crew member
-# NEED FIX: Crew member ending required because adjective conflict with entity
 
 
 # - Clue -
 
-#a clue is a entity, object, or destruction
+object, entity, or destruction are kinds of clue
+# Only generates entities?
 
 
 # - Object -
 
-weapon, clothing, drug object, relic or misc are kinds of object
-blaster, tazer, laser sword, crow bar, mining laser, pneumatic gauntlet, bloody box cutter, red fire axe, flail, animal tranquilizer, or needlegun are kinds of weapon
+weapon, clothing, drug, relic or misc are kinds of object
+blaster, tazer, laser sword, crow bar, mining laser, pneumatic gauntlet, bloody box cutter, red fire axe, flail, horse tranquilizer, or rivet gun are kinds of weapon
 space LSD, expired heroin, strange green plant, megaPCP, luminescent mushroom, modified inhaler, stardust or empty syringe are kinds of drug
 cracked unobtanium chest plate, scorched gas mask, yellow hazmat suit, cracked space helmet, fur coat or moon boots are kinds of clothing
 Head of the Beast, Hand of Meradon the Ruthless, first American Flag on the Moon, Declaration of Independence of the Zardonion System, or Shard of Orion are kinds of relic
 emergency beacon, bloody bandages, malfunctioning transmitter, interdimensional mirror, or torn photo of two people are kinds of misc
+
+# - Destruction -
+
+scorch marks, broken windows, acid residue, claw marks, toxic gas, collapsed wall, collapsed ceiling, big hole in wall and explosive damage are kinds of destruction
 
 
 # - Entity -
@@ -45,6 +49,12 @@ a entity is living, dead, comatose, unresponsive, or crazed
 a living entity is friendly, mischievous, hostile, or shy
 a advanced entity is not living
 Do not mention being living
+
+a comatose entity is rare
+a living entity is rare
+a comatose entity is rare
+a unresponsive entity is rare
+a crazed entity is rare
 
 human, alien, animal, android or ghost are kinds of entity
 a human is advanced
@@ -65,14 +75,18 @@ do not mention being unemployed
 
 monkey, squirrel, cat, corgi or parrot are kinds of animal
 a primitive alien is Yorban brain parasite, Vusidrag egg pod, rust bug, electrileech, jerrarat, krexal swarm, or Quixotic mimic
+a advanced alien is Axtularian, Gardarian, Uderi, Astaronian, Lorite or Zuvam
+
+#a entity has object
 
 
 # - Buttons -
 Pressing "ship" means "imagine 3 ship".
+Pressing "character" means "imagine 3 character".
+Pressing "clue" means "imagine 3 clue".
 Pressing "entities" means "imagine 5 entity".
 Pressing "object" means "imagine 5 object".
-Pressing "character" means "imagine 3 character".
-
+Pressing "destruction" means "imagine 3 destruction".
 
 # - Tests -
 
