@@ -1,28 +1,55 @@
+# - Ship -
 
 a ship has a name from ship-names
 a ship has a origin from origin
 a ship has a location from location
 a ship is small, medium or large
-a ship is cargo, outpost, personal, diplomatic military, scavenger, jail or living community
+a ship is cargo, outpost, personal, diplomatic, military, scavenger, jail or living community
 
-#a clue is a clue.
+#a clue is a entity, object, or destruction
+
+
+# - Object -
 
 a object is weapon, clothing, drug, relic or misc.
-a weapon object is blaster, tazer, laser sword, crow bar, mining laser, pneumatic gauntlet, bloody box cutter, red fire axe or Needler.
-a drug object is Space LSD, Stale Heroin, strange green plant, megaPCP, luminescent mushroom, modified inhaler or empty syringe.
+a weapon object is blaster, tazer, laser sword, crow bar, mining laser, pneumatic gauntlet, bloody box cutter, red fire axe, needlegun or mace-and-chain.
+a drug object is space LSD, expired heroin, strange green plant, megaPCP, luminescent mushroom, modified inhaler or empty syringe.
 a clothing object is cracked unobtanium chest plate, scorched gas mask, yellow hazmat suit or moon boots
-a relic object is Head of the Beast, Hand of Meradon the Ruthless, or Shard of Orion
-a misc object is bloody bandages, malfunctioning transmitter, or torn photo of two people
+a relic object is Head of the Beast, Hand of Meradon the Ruthless, first American Flag on the Moon, Declaration of Independence of the Zardion System, or Shard of Orion
+a misc object is emergency beacon, bloody bandages, malfunctioning transmitter, interdimensional mirror, or torn photo of two people
 
-a entity is dead, comatose, unresponsive, insane or crazed.
-a entity is Invader, Scavenger, Alien, Ghost or Animal.
-a entity is advanced or primitive.
+a relic object is rare # Doesn't have an effect?
+
+
+# - Entity -
+
+a entity is primitive or advanced.
+a entity is living, dead, comatose, unresponsive, or crazed
+a living entity is friendly, mischevious, hostile, or shy
+a primitive entity is not living
+Do not mention being primitive
+Do not mention being advanced
+Do not mention being living
+
+a entity is human, alien, animal, android or ghost
+a human entity is advanced
+a android entity is advanced
+a ghost entity is primitive
+#a ghost entity is not dead
+#a ghost entity is not comatose
+#a ghost entity is rare # Doesn't have an effect?
+
+a entity can be crew member, space pirate, or scavenger
+#a ghost entity is not crew member, space pirate, or scavenger
+#a primitive alien entity is not crew member, space pirate, or scavenger
+#a animal entity is not crew member, space pirate, or scavenger
+
+do not mention being animal
+a animal entity is monkey or parrot
+
 a entity has origin from entity-origin
-Animal entity is primitive.
 
-
-
-# buttons
+# - Buttons -
 Pressing "ship" means "imagine 3 ship".
 Pressing "entities" means "imagine 5 entity".
 Pressing "object" means "imagine 5 object".
