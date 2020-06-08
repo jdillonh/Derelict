@@ -4,7 +4,7 @@ a ship has a name from ship-names
 a ship has a origin from origin
 a ship has a location from location
 a ship is small, medium or large
-a ship is cargo, outpost, personal, diplomatic, military, scavenger, jail or living community
+a ship is cargo, outpost, personal, diplomatic, military, scavenger, jail, pirate vessel or living community
 
 #a clue is a entity, object, or destruction
 
@@ -51,7 +51,13 @@ a primitive alien is Yorban brain parasite, Vusidrag egg pod, rust bug, electril
 
 a entity has origin from entity-origin
 
+
 # - Buttons -
 Pressing "ship" means "imagine 3 ship".
 Pressing "entities" means "imagine 5 entity".
 Pressing "object" means "imagine 5 object".
+
+
+# - Tests -
+
+entity should exist
