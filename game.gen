@@ -5,6 +5,12 @@ a ship has a origin from ship-origin
 a ship has a location from location
 a ship is small, medium or large
 a ship is cargo, outpost, personal, diplomatic, military, scavenger, jail, pirate vessel, research, or living community
+# NEED BETTER ROOM STRUCTURE; HOW TO GENERATE DIFFERENT NUMBERS/TYPES BASED ON TYPE OF SHIP
+a ship has a room-1 from rooms
+a ship has a room-2 from rooms
+a ship has a room-3 from rooms
+a ship has a room-4 from rooms
+a ship has a room-5 from rooms
 
 
 # - Character -
@@ -14,6 +20,7 @@ a character has a origin from char-origin
 a character is male, female, genderfluid, or nonbinary
 a character is captain, security officer, janitor, navigator, guard, researcher, pilot, co-pilot, or mechanic
 a character is human crew member, android crew member, or alien crew member
+# NEED FIX: Crew member ending required because adjective conflict with entity
 
 
 # - Clue -
@@ -23,21 +30,19 @@ a character is human crew member, android crew member, or alien crew member
 
 # - Object -
 
-a object is weapon, clothing, drug, relic or misc.
-a weapon object is blaster, tazer, laser sword, crow bar, mining laser, pneumatic gauntlet, bloody box cutter, red fire axe, needlegun or mace-and-chain.
-a drug object is space LSD, expired heroin, strange green plant, megaPCP, luminescent mushroom, modified inhaler, stardust or empty syringe.
-a clothing object is cracked unobtanium chest plate, scorched gas mask, yellow hazmat suit or moon boots
-a relic object is Head of the Beast, Hand of Meradon the Ruthless, first American Flag on the Moon, Declaration of Independence of the Zardonion System, or Shard of Orion
-a misc object is emergency beacon, bloody bandages, malfunctioning transmitter, interdimensional mirror, or torn photo of two people
-
-a relic object is rare # Doesn't have an effect?
+weapon, clothing, drug object, relic or misc are kinds of object
+blaster, tazer, laser sword, crow bar, mining laser, pneumatic gauntlet, bloody box cutter, red fire axe, flail, animal tranquilizer, or needlegun are kinds of weapon
+space LSD, expired heroin, strange green plant, megaPCP, luminescent mushroom, modified inhaler, stardust or empty syringe are kinds of drug
+cracked unobtanium chest plate, scorched gas mask, yellow hazmat suit, cracked space helmet, fur coat or moon boots are kinds of clothing
+Head of the Beast, Hand of Meradon the Ruthless, first American Flag on the Moon, Declaration of Independence of the Zardonion System, or Shard of Orion are kinds of relic
+emergency beacon, bloody bandages, malfunctioning transmitter, interdimensional mirror, or torn photo of two people are kinds of misc
 
 
 # - Entity -
 
 a entity is primitive or advanced.
 a entity is living, dead, comatose, unresponsive, or crazed
-a living entity is friendly, mischevious, hostile, or shy
+a living entity is friendly, mischievous, hostile, or shy
 a advanced entity is not living
 Do not mention being living
 
@@ -59,7 +64,7 @@ a animal is unemployed
 do not mention being unemployed
 
 monkey, squirrel, cat, corgi or parrot are kinds of animal
-a primitive alien is Yorban brain parasite, Vusidrag egg pod, rust bug, electrileech, jerrarat or Quijotic mimic
+a primitive alien is Yorban brain parasite, Vusidrag egg pod, rust bug, electrileech, jerrarat, krexal swarm, or Quixotic mimic
 
 
 # - Buttons -

@@ -1,0 +1,12 @@
+engine room
+bridge
+cargo hold
+boiler room
+maintenance room
+lounge
+kitchen
+airlock
+bunks
+sick bay
+storage room
+radio room
