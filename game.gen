@@ -6,7 +6,7 @@ a ship has a location from location
 a ship is small, medium or large
 a ship is cargo, outpost, personal, diplomatic, military, scavenger, jail, pirate vessel, research, or space colony
 # NEED BETTER ROOM STRUCTURE; HOW TO GENERATE DIFFERENT NUMBERS/TYPES BASED ON TYPE OF SHIP
-a ship has a room-1 from rooms
+a ship has a room-1 from rooms 
 a ship has a room-2 from rooms
 a ship has a room-3 from rooms
 a ship has a room-4 from rooms
@@ -24,7 +24,7 @@ a character is captain, security officer, janitor, navigator, guard, researcher,
 
 # - Clue -
 
-object, entity, or destruction are kinds of clue
+object, destruction, or entity are kinds of clue
 # Only generates entities?
 
 
@@ -74,19 +74,19 @@ a animal is unemployed
 do not mention being unemployed
 
 monkey, squirrel, cat, corgi or parrot are kinds of animal
-a primitive alien is Yorban brain parasite, Vusidrag egg pod, rust bug, electrileech, jerrarat, krexal swarm, or Quixotic mimic
-a advanced alien is Axtularian, Gardarian, Uderi, Astaronian, Lorite or Zuvam
-
-#a entity has object
+#a primitive alien is Yorban brain parasite, Vusidrag egg pod, rust bug, electrileech, jerrarat, krexal swarm, or Quixotic mimic
+#a advanced alien is Axtularian, Gardarian, Uderi, Astaronian, Lorite or Zuvam
 
 
 # - Buttons -
-Pressing "ship" means "imagine 3 ship".
-Pressing "character" means "imagine 3 character".
-Pressing "clue" means "imagine 3 clue".
-Pressing "entities" means "imagine 5 entity".
-Pressing "object" means "imagine 5 object".
-Pressing "destruction" means "imagine 3 destruction".
+Pressing "ship" means "imagine 1 ship".
+Pressing "character" means "imagine 6 character".
+#Pressing "clue" means "imagine 3 clue".
+Pressing "entities" means "imagine 1 entity".
+Pressing "object" means "imagine 1 object".
+Pressing "destruction" means "imagine 1 destruction".
+
+#Pressing "game" means "imagine 1 ship, 6 character, and 8 clue".
 
 # - Tests -
 
