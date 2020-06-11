@@ -32,3 +32,10 @@ KS-566
 RR-010
 BT-904
 MI-648
+The Holy Marauder
+TANKER_508
+The New World Voyager
+Sandra
+The RNSS Queen Elizabeth
+UNMARKED
+__ERROR__ : Traceback ({$shipname} at line 132970) => NO SHIP NAME AVAILABLE;

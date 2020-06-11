@@ -4,7 +4,7 @@ a ship has a name from ship-names
 a ship has a origin from ship-origin
 a ship has a location from location
 a ship is small, medium or large
-a ship is cargo, outpost, personal, diplomatic, military, scavenger, jail, pirate vessel, research, or space colony
+a ship is cargo, outpost, personal, diplomatic, military, recreational, tourist, refugee, exile, training, education, scavenger, jail, pirate vessel, reconnaissance, research, or space colony
 
 
 # - Character -
@@ -15,7 +15,7 @@ a character is male, female, or nonbinary
 a male character has a name from male-names
 a female character has a name from female-names
 a nonbinary character has a name from nonbinary-names
-a character is captain, security officer, janitor, navigator, guard, researcher, pilot, co-pilot, or mechanic
+a character is captain, security officer, janitor, navigator, guard, aerospace engineer, chef, primitive alien trainer, artist, soldier, lawyer, noble, combat medic, doctor, local poitician, digital forencisist, researcher, test-pilot, pilot, co-pilot, or mechanic.
 
 
 # - Object -
@@ -29,7 +29,7 @@ emergency beacon, bloody bandages, malfunctioning transmitter, signal jammer, a 
 
 # - Destruction -
 
-scorch marks, broken windows, acid residue, spore cluster, claw marks, toxic gas, collapsed wall, collapsed ceiling, explosive gas, radioactive slime, oil slick, hot steam, big hole in wall, frozen patch, exposed wires, interdimensional portal, and explosive damage are kinds of destruction
+scorch marks, broken windows, the retired nest of a retched creature, acid residue, festering bacteria, nether warts, a strange alien vine, spore cluster, claw marks, toxic gas, collapsed wall, collapsed ceiling, explosive gas, radioactive slime, oil slick, hot steam, big hole in wall, frozen patch, exposed wires, interdimensional portal, and explosive damage are kinds of destruction
 
 
 # - Entity -
