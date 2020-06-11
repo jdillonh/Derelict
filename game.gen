@@ -5,41 +5,31 @@ a ship has a origin from ship-origin
 a ship has a location from location
 a ship is small, medium or large
 a ship is cargo, outpost, personal, diplomatic, military, scavenger, jail, pirate vessel, research, or space colony
-# NEED BETTER ROOM STRUCTURE; HOW TO GENERATE DIFFERENT NUMBERS/TYPES BASED ON TYPE OF SHIP
-a ship has a room-1 from rooms 
-a ship has a room-2 from rooms
-a ship has a room-3 from rooms
-a ship has a room-4 from rooms
-a ship has a room-5 from rooms
 
 
 # - Character -
 
-a character has a name from char-names
 a character has a species from species-list
 a character has a origin from char-origin
-a character is male, female, genderfluid, or nonbinary
+a character is male, female, or nonbinary
+a male character has a name from male-names
+a female character has a name from female-names
+a nonbinary character has a name from nonbinary-names
 a character is captain, security officer, janitor, navigator, guard, researcher, pilot, co-pilot, or mechanic
-
-
-# - Clue -
-
-object, destruction, or entity are kinds of clue
-# Only generates entities?
 
 
 # - Object -
 
 weapon, clothing, drug, relic or misc are kinds of object
-blaster, tazer, laser sword, crow bar, mining laser, pneumatic gauntlet, bloody box cutter, red fire axe, flail, horse tranquilizer, or rivet gun are kinds of weapon
+blaster, tazer, laser sword, crow bar, pulse shotgun, grenade, mining laser, pneumatic gauntlet, bloody box cutter, red fire axe, flail, horse tranquilizer, or rivet gun are kinds of weapon
 space LSD, expired heroin, strange green plant, megaPCP, luminescent mushroom, modified inhaler, stardust or empty syringe are kinds of drug
-cracked unobtanium chest plate, scorched gas mask, yellow hazmat suit, cracked space helmet, fur coat or moon boots are kinds of clothing
-Head of the Beast, Hand of Meradon the Ruthless, first American Flag on the Moon, Declaration of Independence of the Zardonion System, or Shard of Orion are kinds of relic
-emergency beacon, bloody bandages, malfunctioning transmitter, interdimensional mirror, or torn photo of two people are kinds of misc
+cracked unobtanium chest plate, scorched gas mask, yellow hazmat suit, cracked space helmet, fur coat, medieval suit of armor, or moon boots are kinds of clothing
+Head of the Beast, Hand of Meradon the Ruthless, interdimensional mirror, first American Flag on the Moon, Ruby of Iota, Declaration of Independence of the Zardonion System, or Shard of Orion are kinds of relic
+emergency beacon, bloody bandages, malfunctioning transmitter, signal jammer, a briefcase full of Zardonion credits, several passports with the same face, chalk triangle with candles, salt circle, book written in an ancient language, flare gun, or torn photo of two people are kinds of misc
 
 # - Destruction -
 
-scorch marks, broken windows, acid residue, claw marks, toxic gas, collapsed wall, collapsed ceiling, big hole in wall and explosive damage are kinds of destruction
+scorch marks, broken windows, acid residue, spore cluster, claw marks, toxic gas, collapsed wall, collapsed ceiling, explosive gas, radioactive slime, oil slick, hot steam, big hole in wall, frozen patch, exposed wires, interdimensional portal, and explosive damage are kinds of destruction
 
 
 # - Entity -
@@ -52,7 +42,6 @@ Do not mention being living
 
 a comatose entity is rare
 a living entity is rare
-a comatose entity is rare
 a unresponsive entity is rare
 a crazed entity is rare
 
@@ -74,20 +63,13 @@ a animal is unemployed
 do not mention being unemployed
 
 monkey, squirrel, cat, corgi or parrot are kinds of animal
-#a primitive alien is Yorban brain parasite, Vusidrag egg pod, rust bug, electrileech, jerrarat, krexal swarm, or Quixotic mimic
+a primitive alien is Yorban brain parasite, Vusidrag egg pod, rust bug, electrileech, jerrarat, krexal swarm, or Quixotic mimic
 #a advanced alien is Axtularian, Gardarian, Uderi, Astaronian, Lorite or Zuvam
 
 
 # - Buttons -
 Pressing "ship" means "imagine 1 ship".
 Pressing "character" means "imagine 6 character".
-#Pressing "clue" means "imagine 3 clue".
-Pressing "entities" means "imagine 1 entity".
+Pressing "entities" means "imagine 6 entity".
 Pressing "object" means "imagine 1 object".
 Pressing "destruction" means "imagine 1 destruction".
-
-#Pressing "game" means "imagine 1 ship, 6 character, and 8 clue".
-
-# - Tests -
-
-entity should exist
